@@ -1,7 +1,52 @@
-#   === GUIDE / HELP ===
-#   file.txt  --  ignore file
-#   /folder/file.txt  --  ignore file in a specific location
-#   folder/  -- ignore a folder
-#   *.filetype  --  ignore filetype
-#   **  --  any depth
-#   !  -- negation, un-ignore
+# ===== Backup Files =====
+*.backup
+*.backup.*
+*.swp
+*.swo
+*~
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ===== Editor Files =====
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ===== Sensitive Data (do NOT commit) =====
+.ssh/config.local
+.ssh/known_hosts
+.bash_aliases.local
+.bashrc.local
+config.fish.local
+aliases.fish.local
+.gitconfig.local
+
+# ===== Temporary =====
+*.tmp
+*.log
+.cache/
+tmp/
+temp/
+
+# ===== Node/npm =====
+node_modules/
+.npm
+npm-debug.log
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== Misc =====
+.env
+.env.local

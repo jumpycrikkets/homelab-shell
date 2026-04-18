@@ -1,0 +1,52 @@
+[user]
+    name = Charles Franklin
+    email = charlesfranklin0622@gmail.com
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = vim
+    autocrlf = input
+    pager = less -R
+
+[color]
+    ui = true
+    branch = auto
+    diff = auto
+    status = auto
+
+[alias]
+    # Shortcuts that work across all your machines
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    visual = log --graph --oneline --all
+    amend = commit --amend --no-edit
+    pushf = push --force-with-lease
+
+[pull]
+    rebase = false
+
+[diff]
+    tool = vimdiff
+
+[merge]
+    tool = vimdiff
+
+[credential]
+    helper = store
+
+[push]
+    default = simple
+    autoSetupRemote = true
+
+[fetch]
+    prune = true
+
+[log]
+    date = short
+    decorate = short
