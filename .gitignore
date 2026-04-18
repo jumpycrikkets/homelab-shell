@@ -1,0 +1,7 @@
+#   === GUIDE / HELP ===
+#   file.txt  --  ignore file
+#   /folder/file.txt  --  ignore file in a specific location
+#   folder/  -- ignore a folder
+#   *.filetype  --  ignore filetype
+#   **  --  any depth
+#   !  -- negation, un-ignore
