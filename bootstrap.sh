@@ -79,7 +79,7 @@ fi
 echo ""
 
 echo "Installing packages..."
-local packages=(
+packages=(
     "curl"
     "wget"
     "git"
