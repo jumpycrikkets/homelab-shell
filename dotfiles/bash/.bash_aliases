@@ -29,6 +29,8 @@ alias gcm='git commit -m'
 alias ga='git add'
 alias gco='git checkout'
 alias gp='git push'
+alias gpl='git pull'
+alias gb='git branch'
 alias gl='git log --oneline -10'
 
 # ===== Docker =====
