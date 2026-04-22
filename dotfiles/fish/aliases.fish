@@ -50,9 +50,11 @@ alias dbuild 'docker build'
 alias dcomp 'docker compose'
 alias dcompup 'docker compose up -d'
 alias dcompdown 'docker compose down'
+alias dstats 'docker stats'
 
 # ===== System =====
 alias swapreset 'sudo swapoff -a && sleep 3 && sudo swapon -a'
 alias swapresetwait 'sudo swapoff -a && sleep 15 && sudo swapon -a'
 
-
+# ===== Custom =====
+alias connect 'ssh charles@Victus-Server || ssh charles@192.168.50.139''

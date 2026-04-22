@@ -50,6 +50,7 @@ alias dbuild='docker build'
 alias dcomp='docker compose'
 alias dcompup='docker compose up -d'
 alias dcompdown='docker compose down'
+alias dstats='docker stats'
 
 # ===== System =====
 alias swapreset='sudo swapoff -a && sleep 3 && sudo swapon -a'
@@ -59,3 +60,6 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ===== Package Management (uncomment as needed) =====
 alias update='sudo apt update && sudo apt upgrade'  # Debian/Ubuntu
 # alias update='sudo pacman -Syu'                      # Arch
+
+# ===== Custom =====
+alias connect='ssh charles@Victus-Server || ssh charles@192.168.50.139'
