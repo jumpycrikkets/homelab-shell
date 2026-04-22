@@ -57,4 +57,4 @@ alias swapreset 'sudo swapoff -a && sleep 3 && sudo swapon -a'
 alias swapresetwait 'sudo swapoff -a && sleep 15 && sudo swapon -a'
 
 # ===== Custom =====
-alias connect 'ssh charles@Victus-Server || ssh charles@192.168.50.139''
+alias connect 'ssh charles@Victus-Server || ssh charles@192.168.50.139'
